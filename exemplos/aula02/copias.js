@@ -4,9 +4,10 @@ const original={
     estoque: 5
 }
 const atualizado= {...original, estoque:8};
-
+// spread
 console.log({original, atualizado});
 
 const {nome, estoque} = atualizado;
 console.log(`${nome} possui ${estoque} unidade(s)`);
 // descomponentizacao//
+
