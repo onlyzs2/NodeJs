@@ -82,4 +82,4 @@ async function executar() {
     }
 }
 
-executar();
+executar(); 
