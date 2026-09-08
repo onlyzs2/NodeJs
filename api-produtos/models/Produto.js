@@ -12,7 +12,7 @@ export default class Produto{
         if(!Number.isInteger(estoque) || estoque < 0) {
             throw new TypeError('Estoque deve ser um inteiro maior ou igual a zero')
         }
-        if(typeof categoria !== 'string' || categoria .trim === '') {
+        if(typeof categoria !== 'string' || categoria.trim === '') {
             throw new TypeError('Categoria é obrigatoria');
         }
         Object.assign(this, {
@@ -23,7 +23,7 @@ export default class Produto{
         return this.preco * this.estoque;
     }
     calcularPrecoComDesconto(percentual){
-        if(!Number.isFinite(percentual) || percentual > 0 || percentual> 100) {
+        if(!Number.isFinite(percentual) || percentual < 0 || percentual> 100) {
             throw new RangeError('Desconto deve estar entre 0 e 100');
         }
         return this.preco * (1-percentual / 100);
