@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js .env 1",
-    "check": "node script/app.js",
+    "check": "node scripts/check.js",
     "diagnostico": "node app.js",
     "produto-ausente":"node app.js .env 999",
     "id-invalido": "node app.js .env abc"

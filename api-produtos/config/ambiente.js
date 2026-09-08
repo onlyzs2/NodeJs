@@ -3,7 +3,7 @@ const nomesObrigatorios = ['PORT', 'NOME_ALUNO', 'TURMA'];
 export function carregarAmbiente(arquivoDeConfiguracao){
     if (arquivoDeConfiguracao){
         try {
-            Process.loadEnvFile(arquivoDeConfiguracao);
+            process.loadEnvFile(arquivoDeConfiguracao);
         } catch {
             throw new Error(`Arquivo de configuração não encontrado: ${arquivoDeConfiguracao}`);
         }

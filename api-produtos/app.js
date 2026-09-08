@@ -5,7 +5,7 @@ import { formatarMoeda } from "./utils/formatarMoeda.js";
 async function executar() {
     try{
         const configuracao = carregarAmbiente(process.argv[2]);
-        const idSolicitado = carregarAmbiente(process.argv[3]);
+        const idSolicitado = Number(process.argv[3] || '1');
         if(!Number.isInteger(idSolicitado)) {
             throw new Error('Informe um identificador interiro pra o produto');
         }
