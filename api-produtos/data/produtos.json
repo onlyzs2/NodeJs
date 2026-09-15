@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "nome": "Teclado",
+    "preco": 120,
+    "estoque": 4,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 2,
+    "nome": "Mouse",
+    "preco": 99.9,
+    "estoque": 7,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 3,
+    "nome": "Mouse",
+    "preco": 99.9,
+    "estoque": 7,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 4,
+    "nome": "Mouse",
+    "preco": 99.9,
+    "estoque": 7,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 5,
+    "nome": "Monitor",
+    "preco": 2000,
+    "estoque": 67,
+    "categoria": "Video"
+  },
+  {
+    "id": 6,
+    "nome": "Monito",
+    "preco": 2425,
+    "estoque": 67,
+    "categoria": "video"
+  },
+  {
+    "id": 7,
+    "nome": "Monito",
+    "preco": 2425,
+    "estoque": 67,
+    "categoria": "video"
+  }
+]

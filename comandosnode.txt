@@ -1,0 +1,5 @@
+comandos node
+
+-e -> execução rápida sem criação de arquivo
+
+$LASTEXITCODE -> váriavel do registro de erros
