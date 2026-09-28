@@ -47,5 +47,12 @@
     "preco": 2425,
     "estoque": 67,
     "categoria": "video"
+  },
+  {
+    "id": 8,
+    "nome": "Monitor OLED",
+    "preco": 5679.99,
+    "estoque": 5,
+    "categoria": "Vídeo"
   }
 ]

@@ -1,7 +1,7 @@
 import Produto from "../models/Produto.js";
 import { gravarJson,lerJson } from "../storage/arquivojson.js";
 
-export function criarCatalagoArquivo(caminho){
+export function criarCatalogoArquivo(caminho){
     async function listar() {
         const dados = await lerJson(caminho);
         return dados.map((produto)=> new Produto(produto));
