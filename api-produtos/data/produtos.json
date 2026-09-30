@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nome": "Teclado",
+    "preco": 120,
+    "estoque": 5,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 2,
+    "nome": "Mouse",
+    "preco": 120,
+    "estoque": 67,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 3,
+    "nome": "Monitor LED",
+    "preco": 2999,
+    "estoque": 5,
+    "categoria": "Vídeo"
+  }
+]
